@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, main{
+  background-color: rgb(148, 178, 204);
+}
+
+.container{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  margin-top: 13%;
+}
+
+.box{
+  padding: 5rem;
+  background-color: rgb(219, 223, 222);
+  border-radius: 1rem;
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
+}
